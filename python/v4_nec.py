@@ -54,8 +54,11 @@ def simular(ruta_nec):
     if shutil.which("nec2c") is None:
         return None
     ruta_out = ruta_nec[:-4] + ".out"
-    subprocess.run(["nec2c", "-i", ruta_nec, "-o", ruta_out], check=True,
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    # nec2c limita el largo de los nombres de archivo (buffer corto): se ejecuta dentro de la
+    # carpeta con nombres relativos para que funcione con rutas largas (p. ej. OneDrive).
+    carpeta = os.path.dirname(os.path.abspath(ruta_nec))
+    subprocess.run(["nec2c", "-i", os.path.basename(ruta_nec), "-o", os.path.basename(ruta_out)],
+                   cwd=carpeta, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return ruta_out
 
 

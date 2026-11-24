@@ -1,0 +1,2 @@
+Wilcoxon pareado (vectorial < escalar): W = 0.0, p = 9.313e-10
+Mediana vectorial = -27.9832; mediana escalar = -19.3437

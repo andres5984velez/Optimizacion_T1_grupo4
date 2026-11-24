@@ -1,0 +1,3 @@
+Las 30 soluciones de WOA evaluadas con malla fina (0.005 grados):
+  dif. de SLL (fina - gruesa): media = +0.0003 dB, max |dif| = 0.0012 dB
+  soluciones cuyo FNBW supera 17 grados en malla fina: 26/30 (exceso maximo = 0.050 grados)

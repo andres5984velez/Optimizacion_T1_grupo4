@@ -1,0 +1,1 @@
+Kruskal-Wallis entre los 5 niveles de b: H = 4.014, p = 0.4041

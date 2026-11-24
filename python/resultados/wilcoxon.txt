@@ -1,0 +1,6 @@
+Prueba de rangos con signo de Wilcoxon (pares por semilla, n = 30, alfa = 0.05)
+H0: la mediana de (f_WOA - f_aleatoria) es 0.   Minimizacion: H1 = WOA da f menor.
+  Unilateral (WOA < azar): estadistico W = 0.0,  p = 9.313e-10  -> se rechaza H0
+  Bilateral:               estadistico W = 0.0,  p = 1.863e-09
+Corridas en que WOA supera a la busqueda aleatoria: 30/30
+Mediana WOA = -27.9832   Mediana aleatoria = -19.0295   Diferencia de medianas = -8.9537
