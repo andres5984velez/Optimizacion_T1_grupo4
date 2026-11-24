@@ -8,7 +8,7 @@ Minimiza el nivel de lóbulos laterales (SLL) de un arreglo lineal *broadside* d
 
 `f(a) = SLL(a) [dB] + 100 · max(0, FNBW(a) − 17°)`, con `a_n ∈ [0, 1]`, n = 1…10.
 
-El informe completo está en [`informe/Informe_T1.pdf`](informe/Informe_T1.pdf).
+El informe completo está en [`informe/Informe_T1.pdf`](informe/Informe_T1.pdf) y la presentación en [`presentacion/Presentacion_T1_WOA.pptx`](presentacion/Presentacion_T1_WOA.pptx) ([PDF](presentacion/Presentacion_T1_WOA.pdf)).
 
 ---
 
@@ -18,7 +18,10 @@ El informe completo está en [`informe/Informe_T1.pdf`](informe/Informe_T1.pdf).
 optimizacion_T1_grupo4/
 ├── README.md
 ├── informe/
-│   └── Informe_T1.pdf          # informe final
+│   └── Informe_T1.pdf               # informe final
+├── presentacion/
+│   ├── Presentacion_T1_WOA.pptx     # diapositivas editables (con notas del orador)
+│   └── Presentacion_T1_WOA.pdf      # versión lista para proyectar
 └── python/
     ├── antena.py               # modelo y función objetivo (con contador de evaluaciones)
     ├── woa.py                  # algoritmo WOA
